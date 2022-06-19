@@ -1,0 +1,16 @@
+{
+  "name": "nft_card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"sass ./css/style.scss   ./css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

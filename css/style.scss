@@ -1,8 +1,64 @@
+//realizamos la insercion de las fuentes de la api de google
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+//procedemos a crear el ancho de las fuentes personalizadas
+
+.ff-Outfit {
+	font-family : "Outfit";
+}
+
+.w-295px {
+	width: 295px;
+}
+
+//contenido del overlay
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+.over:hover .overlay {
+  opacity: 1;
+}
+.icon {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 45%;
+  left: 45%;
+ transform: translate(-45%, -45%);
+  -ms-transform: translate(-45%, -45%);
+}
+
+
+.container:hover .over {
+  opacity: 1;
+}
+
+a ,a:active, a:visited {
+	color: hsl(0, 0%, 100%) !important;
+	text-decoration: none !important;
+}
+
+a:hover{
+	color: hsl(178, 100%, 50%) !important;
+	
+}
+
 $theme-colors : (
-	"Color1" : #fff,
-	"Color2" : #000
+
+	'SoftBlue': hsl(215, 51%, 70%),
+	'Cyan': hsl(178, 100%, 50%),
+	'VeryDarkBlueMain' : hsl(217, 54%, 11%),
+	'VeryDarkBlueCardBG': hsl(216, 50%, 16%),
+	'VeryDarkBlueLine': hsl(215, 32%, 27%),
+	'White': hsl(0, 0%, 100%),
 
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
